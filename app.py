@@ -6,7 +6,7 @@ st.header("Кардио APP")
 st.subheader("Введите данные и узнайте вероятность проблем с сердцем")
 
 def load():
-    with open("C:/Users/Alexander Malfington/model2.pcl", "rb") as fid:
+    with open("C:/Users/Alexander Malfington/model.pcl", "rb") as fid:
         return pickle.load(fid)
 
 age = st.slider('Возраст', 25, 65)
